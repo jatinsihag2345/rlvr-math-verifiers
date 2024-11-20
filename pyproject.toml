@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlvr-math-verifiers"
+version = "0.1.0"
+description = "Deterministic mathematical and symbolic verification environments for Reinforcement Learning with Verifiable Rewards (RLVR)."
+authors = [{ name = "Jatin Sihag", email = "clyfergamer@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+rlvr-verify = "rlvr_verifiers.cli:main"
