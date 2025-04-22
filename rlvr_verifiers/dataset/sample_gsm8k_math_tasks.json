@@ -1,0 +1,37 @@
+[
+  {
+    "id": "gsm8k_001",
+    "domain": "gsm8k_arithmetic",
+    "prompt": "Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins with four every day. She sells the remainder at the farmers' market daily for $2 per egg. How much in dollars does she make every day?",
+    "ground_truth": "18",
+    "difficulty": 1
+  },
+  {
+    "id": "math_algebra_042",
+    "domain": "algebra_math",
+    "prompt": "Find the positive solution to the equation x^2 - 7x - 18 = 0.",
+    "ground_truth": "9",
+    "difficulty": 2
+  },
+  {
+    "id": "math_geom_089",
+    "domain": "geometry",
+    "prompt": "The hypotenuse of a right triangle has length 13, and one of its legs has length 5. What is the area of the triangle?",
+    "ground_truth": "30",
+    "difficulty": 2
+  },
+  {
+    "id": "math_prob_104",
+    "domain": "probability",
+    "prompt": "A fair six-sided die is rolled twice. What is the probability that the sum of the numbers rolled is 7? Express your answer as a common fraction.",
+    "ground_truth": "1/6",
+    "difficulty": 3
+  },
+  {
+    "id": "number_theory_015",
+    "domain": "number_theory",
+    "prompt": "What is the remainder when 3^2024 is divided by 5?",
+    "ground_truth": "1",
+    "difficulty": 3
+  }
+]
