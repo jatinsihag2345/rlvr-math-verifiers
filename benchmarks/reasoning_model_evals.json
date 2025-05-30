@@ -1,0 +1,34 @@
+{
+  "benchmark": "RLVR-Math-Verifier v1.0",
+  "evaluated_datasets": ["MATH-500", "GSM8K-Hard"],
+  "models": [
+    {
+      "model": "OpenAI o1 (Preview)",
+      "math_500_pass_at_1": "94.8%",
+      "gsm8k_hard_pass_at_1": "98.2%",
+      "avg_reasoning_tokens": 3412,
+      "verifier_pass_rate": "95.6%"
+    },
+    {
+      "model": "DeepSeek-R1",
+      "math_500_pass_at_1": "93.4%",
+      "gsm8k_hard_pass_at_1": "97.8%",
+      "avg_reasoning_tokens": 3890,
+      "verifier_pass_rate": "94.2%"
+    },
+    {
+      "model": "Qwen-2.5-Math-72B",
+      "math_500_pass_at_1": "85.2%",
+      "gsm8k_hard_pass_at_1": "94.6%",
+      "avg_reasoning_tokens": 1250,
+      "verifier_pass_rate": "87.0%"
+    },
+    {
+      "model": "Claude 3.5 Sonnet (20241022)",
+      "math_500_pass_at_1": "78.4%",
+      "gsm8k_hard_pass_at_1": "93.1%",
+      "avg_reasoning_tokens": 980,
+      "verifier_pass_rate": "81.2%"
+    }
+  ]
+}
